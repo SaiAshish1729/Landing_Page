@@ -1,0 +1,48 @@
+input{
+    padding: ;
+    color: #393939;
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #656565;
+    transition: 0.3s;
+    /* color: #fff; */
+}
+#SIGN_FORM_Btn{
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(97.3deg, #ff512f 0%, #dd2476 100%);
+}
+.SIGN_UP_META{
+    /* background: #ee811a;
+    border-color: #ee811a; */
+    /* color: #fff; */
+    text-decoration: none;
+    padding: 10px 15px;
+    justify-content: center;
+    border-radius: 30px;
+    font-weight: 500;
+    border: 2px solid #65676b;
+    color: black;
+
+}
+.SIGN_UP_META:hover{
+    background: #ee811a;
+    border-color: #ee811a;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    justify-content: center;
+    border-radius: 30px;
+    font-weight: 500;
+
+}
+#DOG_{
+    height: auto;
+    width: 21px;
+}
+.DOG_GOOGLE_SPAN{
+    margin: 0 7px;
+}

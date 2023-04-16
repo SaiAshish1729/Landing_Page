@@ -1,0 +1,226 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav-link {
+    /* color: rgb(0 0 0) !important; */
+    font-size: 18px;
+    color: white;
+}
+#home-color{
+    color: white;
+}
+#nav-img{
+    height: auto;
+    width: 150px;
+}
+#my-nav{
+    padding: 0 5%;
+    background-color: #daac00 !important;
+}
+#search-box{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    position: relative;
+    left: 47px;
+
+}
+#search-box::placeholder{
+    color: white;
+}
+#search-btn{
+    background-color: #00bec9;
+    position: relative;
+    z-index: 99;
+    border-radius: 0px;
+    border: 0px;
+    color: white;
+}
+@media screen and (max-width: 820px) {
+    #search-form{
+        position: relative;
+        left: -45px;
+        margin-bottom: 30px;
+    
+    }
+}
+
+@media screen and (max-width: 995px) {
+    #search-form{
+        position: relative;
+        left: -45px;
+        /* margin-bottom: 30px; */
+    
+    }
+}
+
+@media screen and (min-width: 820px) {
+    #search-form{
+       
+        margin-bottom: 30px;
+    
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #search-form{
+        margin-bottom: 0px;
+    }
+}
+/* banner */
+#banner{
+    background-color: #f5ab02;
+}
+#banner_h1{
+    color: white;
+    font-size: 70px;
+}
+#banner_para{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner_btn_1{
+    padding: 12px 18px;
+    border: none;
+    background-color: #00bec9;
+    color: white;
+}
+#banner_btn_2{
+    border: 1px solid white;
+    margin-left: 25px;
+    padding: 10px 15px;
+    color: white;
+}
+@media  screen and (min-width: 635px) {
+    #banner_h1{
+        font-size: 42px;
+    }
+}
+@media  screen and (max-width: 690px) {
+    #banner_h1{
+        font-size: 68px;
+    }
+}
+@media  screen and (max-width: 768px) {
+    #banner_h1{
+        font-size: 41px;
+    }
+    #bannerimg{
+        max-width: 131%;
+        /* margin-top: 40px; */
+        height: auto;
+    }
+}
+
+/* service section  */
+
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-img{
+    padding: 5%;    
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+/* Counter section  */
+
+#counter-section{
+    background:url( https://images.hdqwalls.com/wallpapers/little-girl-with-golden-retriever-puppy-v9.jpg);
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    padding: 5%;
+    margin-bottom: 3%;
+}
+
+/* Blog  */
+
+#recent-posts{
+    font-size: 50px;
+}
+.clr{
+    color: #00bec9;
+}
+/* Footer  */
+#Footer{
+    background-color: #343434;
+    color: white;
+
+}
+#Footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#Footer a:hover{
+    color: rgb(211, 187, 2);
+    
+}
+#Footer-search{
+    padding: 10px;
+    width: 70%;
+    background-color: #fcc302;
+    color: aliceblue;
+    border: none;
+    border-radius: 0px;
+    position: relative;
+    left: 71px;
+}
+#Footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#send-icon{
+    background-color: #00bec9;
+    color: aliceblue;
+    border-radius: 0px;
+    padding: 12px 26px;
+    position: relative;
+    z-index: 99;
+}
+.social-icon{
+    font-size: 25px;
+    margin-left: 3%;
+}
+@media screen and (max-width: 768px) {
+    #send-icon{
+        padding: 11px 27px;
+        position: relative;
+        z-index: 99;
+        /* left: 75px; */
+    }
+    #Footer-search{
+        /* left: 66px; */
+        left: 72px;
+    }
+}
+@media screen and (min-width:769px){
+    #Footer-search{
+        left: 0px;
+    }
+    #send-icon{
+        padding: 12px 24px;
+        position: relative;
+        z-index: 99;
+    }
+}
+
+/* animation */
+.animation{
+    transition-timing-function:cubic-bezier(3, 5, 1, 1);
+    transition: all 0.4s;
+}
+.animation:hover{
+    transform:scale(1.2,1.2);
+}
+
